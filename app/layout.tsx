@@ -28,10 +28,10 @@ export const metadata: Metadata = {
     default: 'Tevan Bhatia',
     template: '%s | Tevan Bhatia',
   },
-  description: 'Developer, writer, and creator.',
+  description: 'Software Engineer | University of Toronto, Oracle.',
   openGraph: {
     title: 'Tevan Bhatia',
-    description: 'Developer, writer, and creator.',
+    description: 'Software Engineer | University of Toronto, Oracle.',
     url: 'https://tevanb.com',
     siteName: 'Tevan Bhatia',
     locale: 'en_US',
@@ -47,10 +47,6 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
-  },
-  twitter: {
-    title: 'Tevan Bhatia',
-    card: 'summary_large_image',
   },
   verification: {
     google: 'eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw',
