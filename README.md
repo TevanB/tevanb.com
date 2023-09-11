@@ -1,6 +1,6 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fleerob%2Fleerob.io)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fleerob%2Ftevanb.com)
 
-# leerob.io
+# tevanb.com
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Database**: [PlanetScale](https://planetscale.com)
@@ -14,15 +14,15 @@
 This application requires Node.js v16.13+.
 
 ```bash
-git clone https://github.com/leerob/leerob.io.git
-cd leerob.io
-pnpm install
-pnpm run setup # Remove all of my personal information
-pnpm dev
+git clone https://github.com/leerob/tevanb.com.git
+cd tevanb.com
+npm install
+npm run setup # Remove all of my personal information
+npm dev
 ```
 
-Create a `.env` file similar to [`.env.example`](https://github.com/leerob/leerob.io/blob/main/.env.example).
+Create a `.env` file similar to [`.env.example`](https://github.com/leerob/tevanb.com/blob/main/.env.example).
 
 ## Cloning / Forking
 
-Please review the [license](https://github.com/leerob/leerob.io/blob/main/LICENSE.txt) and remove all of my personal information (resume, blog posts, images, etc.) by running `pnpm run setup`.
+Please review the [license](https://github.com/leerob/tevanb.com/blob/main/LICENSE.txt) and remove all of my personal information (resume, blog posts, images, etc.) by running `npm run setup`.
