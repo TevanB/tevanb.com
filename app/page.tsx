@@ -191,7 +191,7 @@ export default function Page() {
               <span className="ml-2">LLM Firm</span>
             </div>
           </button>
-          <button onClick={() => handleTabClick(2)} className={`border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4 ${tab == 2 ? "bg-slate-200":""}`}>
+          {/* <button onClick={() => handleTabClick(2)} className={`border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4 ${tab == 2 ? "bg-slate-200":""}`}>
             <svg
               width="100"
               height="19"
@@ -333,7 +333,7 @@ export default function Page() {
                 </clipPath>
               </defs>
             </svg>
-          </button>
+          </button> */}
         </div>
       </ul>
       <div className="mb-6">
