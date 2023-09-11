@@ -169,14 +169,6 @@ export default function Page() {
         {`In my free time I like finding new restaurants, bouldering, working on my Spotify playlists, and playing my electric and acoustic Guitars 
           (Fender Telecaster and Seagull S6 respectively).`}
       </p>
-      <div className="prose prose-neutral dark:prose-invert">
-        <p>
-          Over the past decade, I've written content on my blog and newsletter.
-          I try to keep things simple. You'll find writing about technologies
-          I'm interested in at the time, or how I'm learning and growing in my
-          career, sharing knowledge along the way.
-        </p>
-      </div>
       <h3 className="font-bold text-2xl mb-4 tracking-tighter">
         Fun Projects
       </h3>

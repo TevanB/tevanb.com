@@ -1,5 +1,3 @@
-import { allBlogs } from 'contentlayer/generated';
-
 export default async function sitemap() {
   const routes = ['', '/resume'].map(
     (route) => ({
