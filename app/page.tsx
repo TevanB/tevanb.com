@@ -94,8 +94,8 @@ export default function Page() {
           {`I graduated from the `}{" "}
           <span className="not-prose">
             <Badge href="https://www.utoronto.ca/">
-              <Uoft />
-              University of Toronto
+              <Uoft height={20} width={20} />
+              <span>University of Toronto</span>
             </Badge>
           </span>
           {` with an Honors Bachelors of Science (High Distinction), 
