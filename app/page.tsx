@@ -146,7 +146,7 @@ export default function Page() {
         {tab == 1 && (
           <div className="max-w-lg mx-auto rounded-lg overflow-hidden shadow-lg">
             <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">Automatius AI</div>
+              <div className="font-bold text-xl mb-2">AI Integration Firm</div>
               <p className="text-gray-700 text-base">
                 I've been working on a AI Engineering Firm that focuses on
                 LLM-related development. By leveraging Meta's recent open source
@@ -171,14 +171,6 @@ export default function Page() {
                 AWS
               </span>
               {/* Add more technology tags as needed */}
-            </div>
-            <div className="px-6 py-4">
-              <a
-                href="https://automatius.ai"
-                className="text-blue-500 hover:text-blue-700 text-sm"
-              >
-                View Website
-              </a>
             </div>
           </div>
         )}
