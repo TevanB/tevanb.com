@@ -11,6 +11,7 @@ import summit from "public/images/home/summit.jpg";
 import avatar from "app/avatar.jpg";
 import Uoft from "public/images/logos/uoft.svg";
 import Meta from "public/images/projects/meta.svg";
+import Accrete from "public/images/logos/accrete.svg"
 import System from "public/images/projects/system.svg";
 import React from "react";
 import { Suspense } from "react";
@@ -61,30 +62,12 @@ export default function Page() {
           {`I'm a NYC-based Software Engineer who focuses on backend development, artificial intelligence, and cloud systems. I currently
         work as a Software Engineer at `}
           <span className="not-prose">
-            <Badge href="https://oracle.com">
-              <svg
-                width="13"
-                height="11"
-                viewBox="0 0 33 22"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                className="inline-flex mr-1"
-              >
-                <path
-                  fill="none"
-                  stroke="#C74634"
-                  stroke-width="4"
-                  d="m10,2a8,8 0 1,0 0,16h12a8,8 0 1,0 0-16z"
-                />
-              </svg>
-              Oracle
+            <Badge href="https://www.accrete.ai/">
+              <Accrete height={20} width={20} />
+              Accrete.AI
             </Badge>
           </span>
-          {`, where I work on Applications and Infrastructure for Oracle Health and AI, using `}
-          <Badge>JavaScript</Badge>
-          {` , `}
-          <Badge>Ruby on Rails</Badge>
-          {` , and `}
+          {`, where I work on the Research and Development of concurrent, LLM-driven multimodal agents using `}
           <Badge>Python</Badge>.
         </p>
       </div>
