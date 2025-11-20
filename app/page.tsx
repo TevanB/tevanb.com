@@ -60,14 +60,13 @@ export default function Page() {
         </h1>
         <p className="prose prose-neutral dark:prose-invert">
           {`I'm a NYC-based Software Engineer who focuses on backend development, artificial intelligence, and cloud systems. I currently
-        work as a Software Engineer at `}
+        work as a Founding Engineer at `}
           <span className="not-prose">
             <Badge href="https://www.accrete.ai/">
-              <Accrete height={20} width={20} />
-              Accrete.AI
+              Termblocks
             </Badge>
           </span>
-          {`, where I work on the Research and Development of concurrent, LLM-driven multimodal agents using `}
+          {`, where I work on the leading Agentic systems and LLM-driven document ingestion pipelines using `}
           <Badge>Python</Badge>.
         </p>
       </div>
